@@ -1,0 +1,871 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a, h3, h4, h5, span{
+    text-decoration: none;
+    font-family: Dosis, sans-serif;
+}
+a{
+    color: #163269;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;    
+}
+a:hover{
+    color: green;
+}
+.header_top{
+    background-color: rgb(8, 114, 8);    
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 27px 0;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 17px;       
+    width: 100%; 
+}
+div.Login a, div.head a{
+    padding: 0 15px;
+    color: #c7cad0;
+}
+div a.special{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+div a#contsp{
+    color: white;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-left: 23px;
+}
+div.Login a:hover{
+    color: white;
+}
+div a.special:hover{
+    color: black;
+}
+div a#contsp:hover{
+    text-decoration: underline;
+}
+.header_bottom{                 
+    background-color: white;
+    width: 100%;
+    height: 200px;    
+}
+div.logo{    
+    padding: 30px 0 45px 35px;       
+}
+nav{
+    color: black;    
+    padding:0 20px;    
+    text-align: right;       
+}
+nav a{
+    justify-content:space-between;
+    padding: 15px;
+}
+nav a.home:hover, nav a:hover{
+    color: rgb(6, 103, 6);
+    
+    border-bottom: 8px solid green;        
+    padding-bottom: 35px;
+}
+nav a.home{
+    color: green;
+    border-bottom: 8px solid green;    
+    padding-bottom: 35px;   
+}
+a.hidden{
+    display: none;
+}
+#banner{
+    background-image:url(images/abu\ senate.jpg);
+    background-size: cover;
+    padding: 250px 40px;       
+}
+div.approved{
+    background-color: rgba(0, 102, 0, 0.69);
+    width: 56%;
+    font-size: 25;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;       
+}
+h1{
+    font-size: 40px;
+    padding-top: 15px;    
+}
+#banner a{
+    background-color: white;
+    border-left: 5px solid green;
+    padding: 20px;
+}
+section#News_QuickLinks, .newss {   
+    background-color: white; 
+    display:flex;    
+    line-height: 1.3;    
+}
+.aa{
+    display: flex;
+    padding-bottom: 20px;    
+}
+section #NewsandUpdates{        
+    padding: 100px 70px;
+}
+div#NewsandUpdates h1{ 
+    padding-bottom: 80px;
+}
+div.inv{
+    width: 60%;
+    padding-right: 40px;    
+}
+a.as{
+    padding-left: 20px;
+}
+div a.View-More{
+    color: white;
+    background-color: green; 
+    padding: 18px 30px;
+}
+div.Quick-Links{
+    background-color: rgb(7, 18, 7);
+    padding: 80px 40px;
+    padding-left: 120px;
+    padding-bottom: 10px;
+    width: 60%;    
+}
+h3.quick{
+    color: white;
+}
+a h3{
+    color: green;
+    padding: 15px 0;
+}
+div.Quick-Links a, div.Quick-Links p{
+    color: green;
+}
+div p.orange{
+    color: rgb(169, 74, 39);
+    padding-bottom: 40px;
+}
+section#apply_symposium{
+    display: flex;
+    background-color: green;
+}
+div.apply{    
+    color: green;
+    font-size: 28px;
+    background-color: #f3f3f3;
+    width: 81%;
+    padding:8% 10% 12%;
+    text-align: center;
+}
+div.symposia{
+    color: white;    
+    background-color: green;
+    width: 53%;    
+    padding: 40px 50px 50px;
+}
+div.agric{
+    display: flex;
+    padding: 15px 0px;
+}
+div a.white_light{
+    color: white;
+    padding-left: 23px;
+    font-size: 12px;
+    line-height: 30px;
+}
+section#Short{    
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: white; 
+}
+div.each{
+    width: 20%;
+    display: flex;
+}
+div.each a{
+    color: green;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 7px;
+    line-height: 30px;
+}
+section#vision{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 70px;    
+}
+div.ABUvision, div.empty, div.mindspark{
+    background-color: #424242;
+    background-blend-mode: lighten;
+    width: 33.3%;
+    padding: 80px;
+    color: white;
+    line-height: 2.0rem;  
+    font-size: 15px;          
+}
+div.empty{
+    background-image: url(images/ahmadu\ bello.jfif);
+    background-size: cover;
+}
+h4{
+    font-size: 31px;
+    padding-bottom: 8px;
+}
+h4.mind{
+    text-decoration: underline;
+    padding-bottom: 70px;
+}
+div.ABUvision a, div.mindspark a{
+ padding: 20px;
+ background-color: green;
+ color: white;
+}
+div.ABUvision h3{
+    font-weight: 100;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+div.ABUvision h3.according{
+    color: #51be78;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 0;
+    font-weight: 100;
+}
+div.mindspark h3{
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1.0px;
+    line-height: 2.5rem;
+    text-align: left;    
+    padding-bottom: 15px;   
+}
+div.mindspark h3.AJ{
+    font-size: 20px;
+    color: #cff;
+    font-weight: 600;
+    text-align: right;
+    padding-bottom: 30px;    
+}
+div.mindspark span{
+font-size: 6.0rem;
+font-family: Dosis, sans-serif;
+}
+section#programmes{
+    display: flex;    
+    background-color: rgba(1, 15, 50, 0.906);
+    padding: 80px 0;
+    color: #d4e1fa;
+    line-height: 1.8rem;   
+}
+div.prog{
+    padding: 0 40px;
+}
+div.prog h3{
+    font-size: 15px;
+    font-weight: 100;
+    padding-bottom: 20px;            
+}
+div.prog h3.progsp{
+    font-size: 25px;
+    font-weight: 600;        
+    color: white;
+    padding: 30px 0 20px;
+}
+div.prog a{
+    color: #272;
+    padding: 5px 12px;
+    background-color: rgb(227, 148, 2);
+    font-size: 14px;
+    font-weight: 100;
+    border: 1px solid white;
+    border-radius: 5px;    
+}
+div.prog a:hover{
+    color: white;
+}
+section#staff{
+    display: flex;
+    background-color: rgb(1, 40, 6);
+    padding: 100px 0;
+}
+div.featured_staff{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;    
+    padding: 80px 30px 30px 80px;
+    line-height: 2.2rem;
+}
+div.featured_staff h4{
+    color: #51be78;
+    padding-bottom: 30px;
+}
+div.featured_staff h3.last{
+    color: #ffffff;    
+    font-size: 18px;
+    font-weight:200;
+    padding: 30px 0;
+}
+div.get_join{
+    text-align: right;
+}
+div.featured_staff a.getanother{
+    color: white;
+    padding: 5px 30px;
+    background-color: #01782b;
+    font-size: 16px;
+    font-weight: 600;   
+    border-radius: 5px;
+}
+div.featured_staff a.joinus{
+    color: white;
+    padding: 8px 30px;
+    background-color: rgb(208, 1, 1);
+    font-size: 16px;
+    font-weight: 600;   
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 10px;    
+}
+div.featured_staff a.joinus:hover{
+    background-color: rgb(208, 1, 1);
+    border: 0px solid white;
+}
+footer div#footer_top{
+    display: flex;
+    background-color: #1f1e1e;
+    padding: 50px 20px;
+    line-height: 1.7rem;
+    color: #ababab;  
+    font-size: 15px;
+}
+div.group{
+    width: 25%;
+    padding: 30px 20px;        
+}
+div.group h3.senate, span.senate{    
+    font-weight: 100;
+    width: 65%;
+    padding: 40px 1px 50px;
+}
+div.group h5{
+    color: white;
+    font-size: 17px;
+    padding-bottom: 13px;
+}
+div.group hr{
+    border: 0.4px solid rgb(1, 145, 1);
+    margin-bottom: 25px;     
+}
+div.group a{
+    color: #8d8d8d;
+    line-height: 2.2rem;    
+}
+div.group a:hover{
+    color: white;
+}
+div.group a.contactUs, div.copywrite a{
+    color: #00BFFF;    
+    border-bottom: 1px dotted #00BFFF;
+    line-height: 1.0rem;    
+}
+div.group a.contactUs:hover, div.copywrite a:hover{
+    color: #00BFFF;
+    text-decoration:underline;    
+}
+footer div.copywrite{
+    display: flex;    
+    background-color: rgb(36, 36, 36);
+    padding: 35px 40px 55px;
+    justify-content: space-between;        
+}
+div.copywrite span{
+    font-size: 16px;
+    color:  #818080;
+}
+
+@media(max-width:1000px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    div.Login a {
+        display: none;
+        padding: 0 15px;
+        color: #c7cad0;
+    }
+    .header_bottom{                 
+        background-color: white;
+        width: 100%;
+        height: 200px;    
+    }
+    div.logo{    
+        padding: 30px 0 45px 35px;       
+    }
+    nav{
+        display: none;
+        color: black;    
+    }
+    nav a.home:hover, nav a:hover{
+        color: rgb(6, 59, 6);
+        color: red;
+        border-bottom: 8px solid green;        
+        padding-bottom: 35px;
+    }
+    nav a.home{
+        color: green;
+        border-bottom: 8px solid green;    
+        padding-bottom: 35px;   
+    }
+    nav a.hiden{
+        display:contents;
+    }    
+    #banner{
+        background-image:url(images/abu\ senate.jpg);
+        background-size: cover;
+        padding: 250px 40px;            
+    }
+    div.approved{
+        background-color: rgba(0, 102, 0, 0.69);
+        width: 90%;
+        font-size: 25;
+        color: white;
+        border-radius: 20px;
+        margin-bottom: 20px;       
+    }
+    h1{
+        font-size: 40px;
+        padding-top: 15px;    
+    }
+    #banner a{
+        background-color: white;
+        border-left: 5px solid green;
+        padding: 20px;
+    }
+    section#News_QuickLinks, .newss {   
+        background-color: white; 
+        display:block;    
+        line-height: 1.3;    
+    }
+    .aa{
+        display: flex;
+        padding-bottom: 20px;    
+    }
+    section #NewsandUpdates{                
+        padding: 10 20 ;
+    }
+    section #NewsandUpdates div.newss{
+        display: flex;
+        width: 100%;
+        padding: 40px 0 40px 20px;    
+    }
+    a.as{
+        padding-left: 20px;
+    }
+    div a.View-More{
+        color: white;
+        background-color: green; 
+        padding: 18px 30px;
+    }
+    div.Quick-Links{
+        background-color: rgb(7, 18, 7);
+        padding: 80px 0px 80px 40px;
+        width: auto;                        
+    }
+    h3.quick{
+        color: white;
+    }
+    a h3{
+        color: green;
+        padding: 15px 0;
+    }
+    div.Quick-Links a, div.Quick-Links p{
+        color: green;        
+    }
+    div p.orange{
+        color: rgb(169, 74, 39);
+        padding-bottom: 40px;
+    }
+    section#apply_symposium{
+        display: block;
+    }
+    div.each a{       
+        padding-left: 10px;                
+    }
+    section#vision{
+        display: block;                
+    }
+    div.ABUvision, div.empty, div.mindspark{
+        width: auto;
+    }
+    div.empty{
+    padding: 600px 0; 
+   }
+    h4{
+        font-size: 31px;
+        padding-bottom: 8px;
+    }
+    h4.mind{
+        text-decoration: underline;
+        padding-bottom: 70px;
+    }
+    div.ABUvision a, div.mindspark a{
+     padding: 20px;
+     background-color: green;
+     color: white;
+    }
+    div.ABUvision h3{
+        font-weight: 100;
+        padding-bottom: 50px;
+        text-align: justify;
+    }
+    div.ABUvision h3.according{
+        color: #51be78;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: left;
+        padding: 10px 0;
+        font-weight: 100;
+    }
+    div.mindspark h3{
+        font-size: 26px;
+        font-style: italic;
+        font-weight: bold;
+        letter-spacing: 1.0px;
+        line-height: 2.5rem;
+        text-align: left;    
+        padding-bottom: 15px;   
+    }
+    div.mindspark h3.AJ{
+        font-size: 20px;
+        color: #cff;
+        font-weight: 600;
+        text-align: right;
+        padding-bottom: 30px;    
+    }
+    div.mindspark span{
+    font-size: 6.0rem;
+    font-family: Dosis, sans-serif;
+    }
+    section#programmes{
+        display: flex;    
+        background-color: rgba(1, 15, 50, 0.906);
+        padding: 80px 0;
+        color: #d4e1fa;
+        line-height: 1.8rem;   
+    }
+    div.prog{
+        padding: 0 40px;
+    }
+    div.prog h3{
+        font-size: 15px;
+        font-weight: 100;
+        padding-bottom: 20px;            
+    }
+    div.prog h3.progsp{
+        font-size: 25px;
+        font-weight: 600;        
+        color: white;
+        padding: 30px 0 20px;
+    }
+    div.prog a{
+        color: #272;
+        padding: 5px 12px;
+        background-color: rgb(227, 148, 2);
+        font-size: 14px;
+        font-weight: 100;
+        border: 1px solid white;
+        border-radius: 5px;    
+    }
+    div.prog a:hover{
+        color: white;
+    }
+    section#staff{
+        display: flex;
+        background-color: rgb(1, 40, 6);
+        padding: 100px 0;
+    }
+    div.featured_staff{
+        color: white;
+        font-size: 18px;
+        font-weight: 100;    
+        padding: 80px 30px 30px 80px;
+        line-height: 2.2rem;
+    }
+    div.featured_staff h4{
+        color: #51be78;
+        padding-bottom: 30px;
+    }
+    div.featured_staff h3.last{
+        color: #ffffff;    
+        font-size: 18px;
+        font-weight:200;
+        padding: 30px 0;
+    }
+    div.get_join{
+        text-align: right;
+    }
+    div.featured_staff a.getanother{
+        color: white;
+        padding: 5px 30px;
+        background-color: #01782b;
+        font-size: 16px;
+        font-weight: 600;   
+        border-radius: 5px;
+    }
+    div.featured_staff a.joinus{
+        color: white;
+        padding: 8px 30px;
+        background-color: rgb(208, 1, 1);
+        font-size: 16px;
+        font-weight: 600;   
+        border-radius: 5px;
+        border: 1px solid white;
+        margin-left: 10px;    
+    }
+    div.featured_staff a.joinus:hover{
+        background-color: rgb(208, 1, 1);
+        border: 0px solid white;
+    }
+    footer div#footer_top{
+        display: flex;
+        background-color: #1f1e1e;
+        padding: 50px 20px;
+        line-height: 1.7rem;
+        color: #ababab;  
+        font-size: 15px;
+    }
+    div.group{
+        width: 25%;
+        padding: 30px 20px;        
+    }
+    div.group h3.senate, span.senate{    
+        font-weight: 100;
+        width: 65%;
+        padding: 40px 1px 50px;
+    }
+    div.group h5{
+        color: white;
+        font-size: 17px;
+        padding-bottom: 13px;
+    }
+    div.group hr{
+        border: 0.4px solid rgb(1, 145, 1);
+        margin-bottom: 25px;     
+    }
+    div.group a{
+        color: #8d8d8d;
+        line-height: 2.2rem;    
+    }
+    div.group a:hover{
+        color: white;
+    }
+    div.group a.contactUs, div.copywrite a{
+        color: #00BFFF;    
+        border-bottom: 1px dotted #00BFFF;
+        line-height: 1.0rem;    
+    }
+    div.group a.contactUs:hover, div.copywrite a:hover{
+        color: #00BFFF;
+        text-decoration:underline;    
+    }
+    footer div.copywrite{
+        display: flex;    
+        background-color: rgb(36, 36, 36);
+        padding: 35px 40px 55px;
+        justify-content: space-between;        
+    }
+    div.copywrite span{
+        font-size: 16px;
+        color:  #818080;
+    }
+    
+}
+
+
+
+@media(max-width:768px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .header_top, div.header_bottom {
+        padding: 15px 0;
+    }
+    .header_bottom{                 
+        background-color: white;
+        width: 100%;
+        height: 200px;    
+    }
+    div.logo{    
+        padding: 30px 0 45px 35px;       
+    }
+    .header_bottom{
+        width: 100%;
+        height: auto;
+    }
+    div.Login, nav {
+        display: none;        
+    }
+    div.logo{    
+        padding: 20px 0 0 20px;       
+    }
+    a.hidden{
+        display:block;
+        text-align: right;
+        padding-right: 10px;
+    }
+    header a.hidden img{
+        width: 30px;
+    }
+    #banner{
+        padding: 200px 20px;            
+    }
+    div.approved{        
+        font-size: 20px;        
+    }
+    h1{
+        font-size: 30px;        
+    }
+    #banner a{
+        padding: 10px;
+    }
+
+    div.approved{        
+        width: 100%;
+        font-size: 20;
+        
+    }
+    
+   section#News_QuickLinks, section #NewsandUpdates div.newss{
+        display: block;
+        width: auto;
+        padding: 20px 0 40px 10px;    
+    }
+    section #NewsandUpdates div.newss{
+        padding-top: 1px;
+    }
+    .aa{
+        display: block;
+        padding: 10px 0;     
+    }
+    a.as{
+        padding:10px 0px;
+    }
+    div a.View-More{
+        padding: 10px 15px;
+    }
+    div.Quick-Links{
+        padding: 80px 0px 80px 40px;
+        width: auto;                        
+    }
+    
+    section#apply_symposium{
+        display: block;
+    }
+    div.symposia, div.apply{
+        width: auto;
+    }    
+    div.agric{
+        display: block;
+        padding: 15px 0px;
+    }
+    div a.white_light{        
+        padding-left: 0px;        
+        line-height: 25px;
+    }
+    section#Short{
+        display: block;                    
+        padding: 30px 15px;        
+    }
+    div.each{
+        width: auto;
+        justify-content: center;
+    }    
+    div.each a{          
+        font-size: 16px;
+        padding: 20px 15px;
+    }
+    section#vision{
+        display: block;                
+    }
+    div.ABUvision, div.empty, div.mindspark{
+        width: auto;
+    }
+    div.empty{
+    padding: 300px 0; 
+   }
+    div.ABUvision a, div.mindspark a{
+     padding: 5px;
+     }
+    section#programmes{
+        display: block;    
+        background-color: rgba(1, 15, 50, 0.906);
+        line-height: 1.3rem;   
+    }
+    div.prog{
+        padding: 15px 15px;
+    }
+    div.prog h3{
+        font-size: 14px;                
+    }
+    div.prog h3.progsp{
+        font-size: 18px;
+    }
+    section#staff{
+        display: block;
+        background-color: rgb(1, 40, 6);
+        padding: 50px 0;
+    }
+    div.featured_staff a.getanother, div.featured_staff a.joinus{        
+        padding: 5px 3px;    
+    }
+    div.get_join{
+        text-align: left;
+    }
+    div.featured_staff a.joinus:hover{
+        background-color: rgb(208, 1, 1);        
+    }
+    footer div#footer_top{
+        display: block;
+        font-size: 14px;
+    }
+    div.group{
+        padding-left: 3px;
+        width: auto;
+        padding-bottom: 10px;
+    }    
+    div.group h5{        
+        font-size: 19px;                
+    }
+    div.group a{
+        line-height: 1.8rem;    
+    }
+    footer div.copywrite{
+        display: block; 
+    }
+    div.copywrite span{
+        font-size: 16px;                
+    }    
+    div.powered{
+        padding-top: 10px;
+    }        
+    div.logo a img{
+        width: 50%;
+    }
+    section#staff img{
+        width: 100%;        
+    }  
+    
+}
